@@ -5,42 +5,163 @@
 	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	  <!-- TITLE -->
-	  <title>David Pham</title>
+	  <title>David Pham | Software Developer</title>
 
 	  <!-- FONTS -->
 
 	  <!-- CSS -->
-	  <link rel="stylesheet" type="text/css" href="../style.css">
+	  <link rel="stylesheet" type="text/css" href="css/style.css">
+	  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	  <!-- FONTS -->
+	  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+
+	  <!-- SCRIPTS -->
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	  <script src="javascript/scroll.js"></script>
 	</head>
 	
 	<body>
 		<div class="row">
-			<div class="col-2 menu">
-			  <ul>
-			    <li>About</li>
-			    <li>Experience</li>
-			    <li>Projects</li>
-			    <li>Contact</li>
-			    <li>Resume</li>
-			    <li>Github</li>
-			    <li>LinkedIn</li>
-			  </ul>
+			<!-- LEFT-SIDE MENU -->
+			<div class="w3-sidebar w3-bar-block w3-indigo w3-xxlarge">
+ 				<a href="#bio" class="w3-bar-item w3-button"><i class="fa fa-user-circle"><span class="w3-bar-item-text">About me</span></i></a>
+ 				<a href="#experience" class="w3-bar-item w3-button"><i class="fa fa-id-card-o"><span class="w3-bar-item-text">Experience</span></i></a>
+ 				<a href="#projects" class="w3-bar-item w3-button"><i class="fa fa-folder-open"><span class="w3-bar-item-text">Projects</span></i></a>
+				<a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-address-book-o"><span class="w3-bar-item-text">Contact</span></i></a>
+				<a href="resume.pdf" class="w3-bar-item w3-button" target="_blank"><i class="fa fa-file-text-o"><span class="w3-bar-item-text">Resume</span></i></a>
+				<a href="mailto:dppham1@uci.edu" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i></a> 
+				<a href="https://github.com/dppham1" class="w3-bar-item w3-button" target="_blank"><i class="fa fa-github"></i></a>
+				<a href="https://www.linkedin.com/in/dppham1/" class="w3-bar-item w3-button" target="_blank"><i class="fa fa-linkedin-square"></i></a>
 			</div>
 
-			<div class="col-10">
-			  <h1>The City</h1>
-			  <p>Chania is the capital of the Chania region on the island of Crete. The city can be divided in two parts, the old town and the modern city.</p>
-			  <p>Resize the browser window to see how the content respond to the resizing.</p>
+			<!-- Main -->
+			<div class="main">
+				<div class="w3-container">
+					<img class="profile-pic" src="images/profile_pic.png" alt="profile_pic">
+					
+					<!-- BIO -->
+					<div id="bio">
+						<h1 class="header">About Me</h1>
+						<p>
+			  				Hi there! My name's David. I'm a fourth year student at the University of California, Irvine expecting to graduate in June 2018. Thanks to UCI's Capstone Experience program, I've had the awesome privilege to work with SendGrid. My team and I are currently working under the mentorship of SendGrid's engineers, and we're in the process of designing, implementing, testing and deploying a large scale system that will reduce the average latency for mail processing significantly.
+			  			</p>
+			  			<p>
+			  				As a software developer, I love using my skills in front-end and back-end technology to help make every-day people's lives better. I love working with companies that have the highest potential outreach to customers, and above all, I love doing  things that have meaning and that are practical.
+			  			</p>
+			  			<p>
+			  				When I'm not constantly staring at a computer screen, you'll find me playing the piano or going out for walks. Or staring at my phone while I walk. Because I still play Pokemon Go. 
+			  				<img src="images/pokeball.png" alt="pokeball.png" id="pokeball">
+			  			</p>
+					</div>
+					<hr class="hr">
+					
+					<!-- EXPERIENCE -->
+					<div id="experience">
+						<h1 class="header">Experience</h1>
+						<div class="item">
+							<div class="item-header">
+								<h3>Intern</h3>
+								<h4>Orange, CA</h4>
+								<h5>October 2017 -- Present</h5>
+							</div>
+							<img id="sendgrid" src="images/sendgrid.png" alt="SendGrid">
+							<div class="item-content">
+								<ul>
+									<li>Currently working under the mentorship of SendGrid's engineers through UCI's Capstone Experience.</li>
+									<li>In the process of designing, implementing, testing and deploying a large scale system that will reduce the average latency for mail processing significantly.</li>
+									<li>Working with a team of 5 in an agile environment to analyze and execute iterative development of features with an objective of delivering minimal viable products often and reliably.</li>
+								</ul>
+							</div>
+						</div>
+						<div class="item">
+							<div class="item-header">
+								<h3>Mentor</h3>
+								<h4>Orange, CA</h4>
+								<h5>June 2017 -- July 2017</h5>
+							</div>
+							<img id="girlsinc" src="images/girlsinc.png" alt="Girls Inc.">
+							<div class="item-content">
+								<ul>
+									<li>Worked alongisde Interns and staff to help coordinate robotic activities/lesson plans (such as Lego EV3 Mindstorms) for girls grade 7-10.</li>
+									<li>Helped to coordinate dances for a NAO humanoid robot using Choregraphe.</li>
+									<li>Ensured students received the necessary support possible to experience hands-on programming and development by creating a positive environment where students are encouraged to be ”strong, smart and bold."</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<hr class="hr">
+
+					<!-- PROJECTS -->
+					<div id="projects">
+						<h1 class="header">Projects</h1>
+						<div class="item">
+							<div class="item-header">
+								<h3>Fabflix</h3>
+								<h4>Full Stack Developer</h4>
+								<h5>March 2017 -- June 2017</h5>
+							</div>
+							<div class="item-content">
+								<ul>
+									<li>Developed a movie rental website called "Fabflix" (similar to Netflix) from scratch.</li>
+									<li>Implemented full text searching, auto-completion search, and pagination.</li>
+									<li>Wrote stored procedures for convenience, and enabled XML parsing,reCAPTCHA and HTTPS.</li>
+									<li>Created a Fabflix mobile application for Android devices using Android Studio.</li>
+									<li>Improved performance with connection pooling/prepared statements, and tested website performance with JMeter. Additionally, scaled the website by using Master/Slave instances.</li>
+									<li>Demonstrated knowledge in HTML, JSP, MySQL, jQuery and AJAX with a team of three.</li>
+								</ul>
+							</div>
+						</div>
+						<div class="item">
+							<div class="item-header">
+								<h3>UCI ICS Web Crawler</h3>
+								<h5>March 2017 -- June 2017</h5>
+							</div>
+							<img id="webcrawler" src="images/webcrawler.png" alt="web crawler">
+							<div class="item-content">
+								<ul>
+									<li>Constructed a web crawler that crawled over 100,000 unique web pages within UCI's ICS domain.</li>
+									<li>Parsed HTML files, tokenized inputs, and calculated the tf-idf of input queries using Python.</li>
+								</ul>
+							</div>
+						</div>
+						<div class="item">
+							<div class="item-header">
+								<h3>Cheasy</h3>
+								<h4>Full Stack Developer</h4>
+								<h5>October 2015</h5>
+							</div>
+							<img id="cheasy" src="images/cheasy.png" alt="cheasy">
+							<div class="item-content">
+								<ul>
+									<li>Educated college students on how to eat cheap and easy (Cheasy!) by building a website that provides recipes, nutritional information and cost using the Edamam API.</li>
+									<li>Built using Bootstrap, JavaScript, jQuery, and CSS by a team of four at San Mateo’s HACKINGEDU Hackathon.</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<hr class="hr">
+
+					<!-- SKILLS -->
+					<!-- <div id="skills">
+						<h1 class="header">Skills</h1>
+					</div>
+					<hr class="hr"> -->
+
+					<!-- CONTACT -->
+					<div id="contact">
+						<h1 class="header">Contact</h1>
+						<div class="item-header">
+							<h5>Email: <a href="mailto:dppham1@uci.edu">dppham1@uci.edu</a></h5>
+							<h5>Phone: (626) 466-8382</h5>
+							<h5>Github: <a href="https://github.com/dppham1" target="_blank">github.com/dppham1</a></h5>
+							<h5>Linkedin: <a href="https://www.linkedin.com/in/dppham1/" target="_blank">linkedin.com/in/dppham1/</a></h5>
+						</div>
+					</div> 
+
+				</div>
 			</div>
 		</div>
-
-		
-
-
-		<img src="images/profile_pic.jpg" alt="profile_pic">
-		<h1>David Pham</h1>
-		<p>
-			Enter bio here.
-		</p>
 	</body>
 </html>

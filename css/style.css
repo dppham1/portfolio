@@ -1,6 +1,100 @@
-.profile-pic {
-	border-top-left-radius: 30% 30%;
-    	border-top-right-radius: 30% 30%;
-    	border-bottom-right-radius: 30% 30%;
-    	border-bottom-left-radius: 30% 30%;
+.w3-sidebar.w3-bar-block.w3-indigo.w3-xxlarge{
+	width: auto;
+}
+
+.w3-bar-item-text{
+	display: block;
+	padding-top: 15%;
+	font-family: sans-serif;
+	line-height: 1.5;
+	font-weight: bold;
+	font-size: .8rem;
+	border-bottom: solid 1px white;
+	text-transform: uppercase;
+}
+
+.main{
+	margin-left: 10%;
+}
+
+.profile-pic{
+	padding: 20px;
+	display: block;
+    margin: auto;
+    max-width: 20%; 
+    max-height: 30%;
+    border-radius: 50%;
+}
+
+#bio{
+	width: 95%;
+	font-family: sans-serif;
+	color: #44452;
+	line-height: 1.5;
+	font-weight: 300;
+	font-size: 1rem;
+	-webkit-font-smoothing: antialiased;
+}
+
+#pokeball{
+	width: 25px;
+	height: 25px;
+}
+
+.hr{
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+.item-header h3{
+	margin-top:10px;
+	font-size: 24px;
+}
+
+.item-header h4{
+	margin-top:-10px;
+	font-size: 16px;
+}
+
+.item-header h5{
+	margin-top:-10px;
+  	margin-bottom:10px;
+  	font-size: 16px;
+}
+
+.item-header a{
+	text-decoration: none;
+	color: #4169E1/* For contact headers */
+}
+
+#sendgrid{
+	width: 20%;
+	height: 50%;
+}
+
+#girlsinc{
+	width: 15%;
+	height: 25%;
+}
+
+#webcrawler{
+	width: 40%;
+	height: 40%;
+}
+
+#cheasy{
+	width: 40%;
+	height: 40%;
+}
+
+.item-content{
+	width: 90%;
+	font-family: sans-serif;
+	color: #44452;
+	line-height: 1.5;
+	font-weight: 300;
+	font-size: 1rem;
+	-webkit-font-smoothing: antialiased;
 }
