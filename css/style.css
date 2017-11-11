@@ -99,7 +99,8 @@
 	-webkit-font-smoothing: antialiased;
 }
 
-@media only screen and (min-device-width : 375px) and (max-device-width : 667px){
+/* Phones */
+@media only screen and (max-device-width : 690px){
 	.main{
 		margin-left: 30%;
 	}
@@ -123,6 +124,18 @@
 		width: 60%;
 		height: 60%;
 	}
+
+	#cheasy{
+		width: 50%;
+		height: 50%;
+	}
 }
+
+@media only screen and (min-width:690px) and (max-width: 995px){
+	.main{
+		margin-left: 20%;
+	}
+}
+
 
 }
