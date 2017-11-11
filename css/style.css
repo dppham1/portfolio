@@ -108,4 +108,21 @@
 		max-width: 70%;
 		max-height: 70%;
 	}
+
+	#sendgrid{
+		width: 60%;
+		height: 75%;
+	}
+
+	#girlsinc{
+		width: 35%;
+		height: 50%;
+	}
+
+	#webcrawler{
+		width: 60%;
+		height: 60%;
+	}
+}
+
 }
