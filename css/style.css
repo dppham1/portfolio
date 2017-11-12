@@ -14,7 +14,7 @@
 }
 
 .main{
-	margin-left: 10%;
+	margin-left: 130px;
 }
 
 .profile-pic{
@@ -101,10 +101,6 @@
 
 /* Phones */
 @media only screen and (max-device-width : 690px){
-	.main{
-		margin-left: 30%;
-	}
-
 	.profile-pic{
 		max-width: 70%;
 		max-height: 70%;
@@ -131,15 +127,16 @@
 	}
 }
 
-@media only screen and (min-width:690px) and (max-width: 995px){
-	.main{
-		margin-left: 20%;
-	}
-
+@media (min-width: 400px) and (max-width: 995px){
 	.profile-pic{
-		max-width: 50%;
-		max-height: 50%;
+		max-width: 200px;
+		max-height: 200px;
 	}
 }
 
+@media (min-width: 995px){
+	.profile-pic{
+		max-width: 210px;
+		max-height: 210px;
+	}
 }
