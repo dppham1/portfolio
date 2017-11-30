@@ -26,23 +26,24 @@
 	<body>
 		<div class="row">
 			<!-- LEFT-SIDE MENU -->
-			<div class="w3-sidebar w3-bar-block w3-indigo w3-xxlarge">
+			<nav class="w3-sidebar w3-bar-block w3-indigo w3-xxlarge">
  				<a href="#bio" class="w3-bar-item w3-button"><i class="fa fa-user-circle"><span class="w3-bar-item-text">About me</span></i></a>
  				<a href="#experience" class="w3-bar-item w3-button"><i class="fa fa-id-card-o"><span class="w3-bar-item-text">Experience</span></i></a>
  				<a href="#projects" class="w3-bar-item w3-button"><i class="fa fa-folder-open"><span class="w3-bar-item-text">Projects</span></i></a>
+ 				<a href="#skills" class="w3-bar-item w3-button"><i class="fa fa-cogs"><span class="w3-bar-item-text">Skills</span></i></a>
 				<a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-address-book-o"><span class="w3-bar-item-text">Contact</span></i></a>
 				<a href="resume.pdf" class="w3-bar-item w3-button" target="_blank"><i class="fa fa-file-text-o"><span class="w3-bar-item-text">Resume</span></i></a>
 				<a href="mailto:dppham1@uci.edu" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i></a> 
 				<a href="https://github.com/dppham1" class="w3-bar-item w3-button" target="_blank"><i class="fa fa-github"></i></a>
 				<a href="https://www.linkedin.com/in/dppham1/" class="w3-bar-item w3-button" target="_blank"><i class="fa fa-linkedin-square"></i></a>
-			</div>
+			</nav>
 
 			<!-- Main -->
-			<div class="main">
+			<main class="main">
 				<div class="w3-container">
 					<img class="profile-pic" src="images/profile_pic.png" alt="profile_pic">					
 					<!-- BIO -->
-					<div id="bio">
+					<header id="bio">
 						<h1 class="header">About Me</h1>
 						<p>
 			  				<em>Hi there! My name's David. I'm a fourth year student at the University of California, Irvine expecting to graduate in June 2018. Thanks to UCI's Capstone Experience program, I've had the awesome privilege to work with SendGrid. My team and I are currently working under the mentorship of SendGrid's engineers, and we're in the process of designing, implementing, testing and deploying a large scale system that will reduce the average latency for mail processing significantly.</em>
@@ -54,11 +55,11 @@
 			  				<em>When I'm not constantly staring at a computer screen, you'll find me playing the piano or going out for walks. Or staring at my phone while I walk. Because I still play Pokemon Go.</em>
 			  				<img src="images/pokeball.png" alt="pokeball.png" id="pokeball">
 			  			</p>
-					</div>
+					</header>
 					<hr class="hr">
 					
 					<!-- EXPERIENCE -->
-					<div id="experience">
+					<section id="experience">
 						<h1 class="header">Experience</h1>
 						<div class="item">
 							<div class="item-header">
@@ -66,7 +67,7 @@
 								<h4>Orange, CA</h4>
 								<h5>October 2017 -- Present</h5>
 							</div>
-							<img id="sendgrid" src="images/sendgrid.png" alt="SendGrid">
+							<a href="https://sendgrid.com/" target="_blank"><img id="sendgrid" src="images/sendgrid.png" alt="SendGrid"></a>
 							<div class="item-content">
 								<ul>
 									<li>Currently working under the mentorship of SendGrid's engineers through UCI's Capstone Experience.</li>
@@ -81,7 +82,7 @@
 								<h4>Orange, CA</h4>
 								<h5>June 2017 -- July 2017</h5>
 							</div>
-							<img id="girlsinc" src="images/girlsinc.png" alt="Girls Inc.">
+							<a href="https://girlsinc.org/" target="_blank"><img id="girlsinc" src="images/girlsinc.png" alt="Girls Inc."></a>
 							<div class="item-content">
 								<ul>
 									<li>Worked alongisde Interns and staff to help coordinate robotic activities/lesson plans (such as Lego EV3 Mindstorms) for girls grade 7-10.</li>
@@ -90,11 +91,11 @@
 								</ul>
 							</div>
 						</div>
-					</div>
+					</section>
 					<hr class="hr">
 
 					<!-- PROJECTS -->
-					<div id="projects">
+					<section id="projects">
 						<h1 class="header">Projects</h1>
 						<div class="item">
 							<div class="item-header">
@@ -102,6 +103,7 @@
 								<h4>Full Stack Developer</h4>
 								<h5>March 2017 -- June 2017</h5>
 							</div>
+							<img id="fabflix" src="images/fabflix.png" alt="fabflix">
 							<div class="item-content">
 								<ul>
 									<li>Developed a movie rental website called "Fabflix" (similar to Netflix) from scratch.</li>
@@ -140,11 +142,11 @@
 								</ul>
 							</div>
 						</div>
-					</div>
+					</section>
 					<hr class="hr">
 
 					<!-- SKILLS -->
-					<div id="skills">
+					<section id="skills">
 						<h1 class="header">Skills</h1>
 						<div class="skill-list">
 							<ul>
@@ -156,11 +158,11 @@
 								<li>MySQL</li>
 							</ul>	
 						</div>
-					</div>
+					</section>
 					<hr class="hr">
 
 					<!-- CONTACT -->
-					<div id="contact">
+					<footer id="contact">
 						<h1 class="header">Contact</h1>
 						<div class="item-header">
 							<h5>Email: <a href="mailto:dppham1@uci.edu">dppham1@uci.edu</a></h5>
@@ -168,10 +170,10 @@
 							<h5>Github: <a href="https://github.com/dppham1" target="_blank">github.com/dppham1</a></h5>
 							<h5>Linkedin: <a href="https://www.linkedin.com/in/dppham1/" target="_blank">linkedin.com/in/dppham1/</a></h5>
 						</div>
-					</div> 
+					</footer> 
 
 				</div>
-			</div>
+			</main>
 		</div>
 	</body>
 </html>
