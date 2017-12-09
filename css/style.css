@@ -48,6 +48,10 @@
     background-image: linear-gradient(to right, #ccc, #333, #ccc);
 }
 
+.subheader{
+	font-style: italic;
+}
+
 .item-header h3{
 	margin-top:10px;
 	font-size: 24px;
@@ -64,9 +68,13 @@
   	font-size: 16px;
 }
 
-.item-header a{
+.hyperlink{
 	text-decoration: none;
 	color: #4169E1/* For contact headers */
+}
+
+.headerResearch{
+	font-weight: bold;
 }
 
 #sendgrid{
@@ -90,6 +98,41 @@
 }
 
 #cheasy{
+	width: 40%;
+	height: 40%;
+}
+
+#competitorAnalysis{
+	width: 40%;
+	height: 40%;
+}
+
+#userInterview{
+	width: 40%;
+	height: 40%;
+}
+
+#featureValueMatrix{
+	width: 40%;
+	height: 40%;
+}
+
+#featurePrioritization{
+	width: 40%;
+	height: 40%;
+}
+
+#userStories{
+	width: 40%;
+	height: 40%;
+}
+
+#cognitiveWalkthrough{
+	width: 40%;
+	height: 40%;
+}
+
+#usabilityTest{
 	width: 40%;
 	height: 40%;
 }
@@ -135,6 +178,42 @@
 		width: 50%;
 		height: 50%;
 	}
+
+	#competitorAnalysis{
+		width: 60%;
+		height: 60%;
+	}
+
+	#userInterview{
+		width: 60%;
+		height: 60%;
+	}
+
+	#featureValueMatrix{
+		width: 60%;
+		height: 60%;
+	}
+
+	#featurePrioritization{
+		width: 50%;
+		height: 50%;
+	}
+
+	#userStories{
+		width: 60%;
+		height: 60%;
+	}
+
+	#cognitiveWalkthrough{
+		width: 60%;
+		height: 60%;
+	}
+
+	#usabilityTest{
+		width: 60%;
+		height: 60%;
+	}
+
 }
 
 @media (min-width: 400px) and (max-width: 995px){
