@@ -68,6 +68,11 @@
   	font-size: 16px;
 }
 
+.skills-header{
+	color: #F44336;
+	font-style: italic;
+}
+
 .hyperlink{
 	text-decoration: none;
 	color: #4169E1/* For contact headers */
@@ -100,6 +105,16 @@
 #cheasy{
 	width: 40%;
 	height: 40%;
+}
+
+.skill-languages{
+	font-size: 80px;
+	padding-right: .3em;
+}
+
+.skill-software{
+	font-size: 80px;
+	padding-right: .3em;
 }
 
 #competitorAnalysis{
@@ -145,6 +160,17 @@
 	font-weight: 300;
 	font-size: 1rem;
 	-webkit-font-smoothing: antialiased;
+}
+
+.skills-used-item {
+  border: 2px solid #4169E1;
+  border-radius: 16px;
+  display: inline-block;
+  width: auto;
+  margin-top: .8em;
+  padding: 5px 15px;
+  font-family: sans-serif;
+  font-size: 12px;
 }
 
 /* Phones */
@@ -214,6 +240,15 @@
 		height: 60%;
 	}
 
+	.skill-languages{
+		font-size: 3em;
+		padding-right: .3em;
+	}
+
+	.skill-software{
+		font-size: 3em;
+		padding-right: .3em;
+	}
 }
 
 @media (min-width: 400px) and (max-width: 995px){
