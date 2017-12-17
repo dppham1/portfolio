@@ -23,4 +23,14 @@ $(document).ready(function(){
       });
     }
   });
+
+  scrollReveal();
+
 });
+
+function scrollReveal(){
+  window.sr = ScrollReveal({ reset: true });
+  sr.reveal('.skills-used', { duration: 700 });
+  sr.reveal('.skill-languages', { duration: 1500 });
+  sr.reveal('.skill-software', { duration: 1500 });
+}
