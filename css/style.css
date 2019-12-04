@@ -36,11 +36,6 @@
 	-webkit-font-smoothing: antialiased;
 }
 
-#pokeball{
-	width: 25px;
-	height: 25px;
-}
-
 .hr{
     border: 0;
     height: 1px;
@@ -80,6 +75,11 @@
 
 .headerResearch{
 	font-weight: bold;
+}
+
+#oracle{
+	width: 20%;
+	height: 50;
 }
 
 #sendgrid{
