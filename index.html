@@ -190,6 +190,26 @@
 						</div>
 						<div class="item">
 							<div class="item-header">
+								<h3>Have I been breached?</h3>
+								<h5>March 2020</h5>
+							</div>
+							<img id="breaches" src="images/breaches.png" alt="breaches">
+							<div class="item-content">
+								<ul>
+									<li>Developed an application that checks if a User's email is associated with any data breaches via the haveibeenpwned API</li>
+									<li>In the event that a breach is reported, all metadata for that breach is sent to a Flask syslog server using Python's logging module</li>
+									<li>Newly updated breach information from the haveibeenpwned API is automatically fetched on a daily basis via Cron</li>
+									<li>Scaled the application by using Python's threadpool module in order to check email addresses in parallel</li>
+								</ul>
+							</div>
+							<div class="skills-used">
+								<span class="skills-used-item">Python</span>
+								<span class="skills-used-item">Flask</span>
+								<span class="skills-used-item">Cron</span>
+							</div>
+						</div>
+						<div class="item">
+							<div class="item-header">
 								<h3>LCD Digital Clock</h3>
 								<h5>April 2018</h5>
 							</div>
